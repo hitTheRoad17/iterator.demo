@@ -11,9 +11,9 @@ package foo;
  */
 public class MsgCenter {
 
-    private MsgCollection msgs;
+    private ArrayMsgCollection msgs;
 
-    MsgCenter(MsgCollection mc) {
+    MsgCenter(ArrayMsgCollection mc) {
         msgs = mc;
     }
 

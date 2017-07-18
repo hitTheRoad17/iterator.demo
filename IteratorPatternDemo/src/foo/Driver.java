@@ -12,7 +12,7 @@ package foo;
 public class Driver {
 
     public static void main(String args[]) {
-        MsgCollection mc = new MsgCollection();
+        ArrayMsgCollection mc = new ArrayMsgCollection();
         MsgCenter mct = new MsgCenter(mc);
         mct.printAllMsgs();
     }
