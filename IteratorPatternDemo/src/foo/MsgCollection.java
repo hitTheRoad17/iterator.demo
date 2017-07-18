@@ -19,9 +19,11 @@ public class MsgCollection implements Collection {
         msgArray = new Message[MSG_CAPACITY];
         msgCount = 0;
 
-        addMsg("Message one");
-        addMsg("Message two");
-        addMsg("Message three");
+        addMsg("Hit the road Jack");
+        addMsg("Don't you come back no more");
+        addMsg("no more, no more, no more");
+        addMsg("Hit the road Jack");
+        addMsg("Don't you come back no more");
 
     }
 
