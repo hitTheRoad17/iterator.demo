@@ -19,12 +19,11 @@ public class ArrayMsgCollection implements Collection {
         msgArray = new Message[MSG_CAPACITY];
         msgCount = 0;
 
-        addMsg("Hit the road Jack");
-        addMsg("Don't you come back no more");
-        addMsg("no more, no more, no more");
-        addMsg("Hit the road Jack");
-        addMsg("Don't you come back no more");
-
+        addMsg("Message One");
+        addMsg("Message Two");
+        addMsg("Message Three");
+        addMsg("Message Four");
+        addMsg("Message Five");
     }
 
     private void addMsg(String str) {

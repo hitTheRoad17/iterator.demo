@@ -16,7 +16,9 @@ public class MsgCenter {
     MsgCenter(ArrayMsgCollection mc) {
         msgs = mc;
     }
-
+    
+    // ArrayMsgCollection provides an iterator to iterate over its collection
+    // without exposing how it was implemented the collection
     public void printAllMsgs() {
         Iterator i = msgs.createIterator();
         System.out.println("*******Message*******");
